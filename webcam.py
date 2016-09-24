@@ -1,6 +1,5 @@
-# webcam.py
-# Description: Program uses OpenCV to display live webcam feed
-# Author: Ashutosh Mishra
+# From: http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html#display-video
+# Description: Program displays live webcam feed
 
 import cv2
 
