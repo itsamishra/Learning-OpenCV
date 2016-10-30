@@ -11,7 +11,7 @@ while(True):
     ret, frame = cap.read()
 
     # Our operations on the frame come here
-    img = cv2.cvtColor(frame, 0)
+    img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)   # Converts image to greyscale
     img = cv2.flip(img, 1)
 
     # Display the resulting frame
